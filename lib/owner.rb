@@ -65,7 +65,7 @@ class Owner
    end
  end
 
- def walk_dogs(dog)
+ def walk_dogs
   @pets.collect do |species, instances|
     if species == :dogs
       instances.each do |dog|
